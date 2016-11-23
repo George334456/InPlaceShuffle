@@ -25,7 +25,7 @@ public class Shuffle {
 			//a random int from i + 1 to size (exclusive).
 			// This will give us the swap position.
 			
-			int swap= r.nextInt(size - i - 1) + i + 1;
+			int swap= r.nextInt(size - i - 1) + i;
 			int buffer = array[i];
 			array[i] = array[swap];
 			array[swap] = buffer;
